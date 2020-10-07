@@ -37,9 +37,9 @@ animation-duration: 4s;
 }
 @keyframes lets-animated{
     0% {color: red; font-size: 40px; font-family: 'Secular One';}
-    25% {color: green; font-size: 30px; font-family: fantasy;}
-    50% {color:  yellow; font-size: 20px; font-family: monospace;}
-    75% {color: blue; font-size: 10px; font-family: serif;}
+    25% {color: green; font-size: 30px; font-family: fantasy; border: black dashed 4px;}
+    50% {color:  yellow; font-size: 20px; font-family: monospace; border: dotted blue 8px;}
+    75% {color: blue; font-size: 10px; font-family: serif; border: solid purple 16px;}
     100% {color: white; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
 }
