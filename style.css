@@ -25,16 +25,37 @@ animation-direction: alternate; */
 } */
 
 body{ 
-    background-color: skyblue;
+    background-color:  white;
 
 }
+
 h2{
     color: red;
     font-size: 40px;
 font-family: 'Secular One';
-animation: lets-animated;
-animation-duration: 4s;
+/* animation: lets-animated; */
+/* animation-duration: 4s;
+animation-delay: 3s;
+animation-iteration-count: 4;
+animation-direction: normal; */
+animation: lets-animated 5s linear 2s 2 normal backwards;
 }
+
+
+
+
+h1{
+    border: black dotted 5px;
+    border-radius: 10%;
+    color: blueviolet;
+    position: relative;
+    animation-name: lets2;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    
+    
+    }
+    
 @keyframes lets-animated{
     0% {color: red; font-size: 40px; font-family: 'Secular One';}
     25% {color: green; font-size: 30px; font-family: fantasy; border: black dashed 4px;}
@@ -42,4 +63,12 @@ animation-duration: 4s;
     75% {color: blue; font-size: 10px; font-family: serif; border: solid purple 16px;}
     100% {color: white; font-size: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
+}
+
+@keyframes lets2{
+    0% {border: black dotted 5px; border-radius: 10%; color: blueviolet;}
+    25% {border: hotpink dotted dashed solid double 7px; border-radius: 14%; color: red;left: 150px;}
+    50% {border: green dashed 9px; border-radius: 5%; color: yellow; left: 200px;}
+    75% {border: purple solid 12px; border-radius: 8%; color: green; left: 250px;}
+    100% {border: black inset 15px; border-radius: 10%; color: blue; left: 400px;}
 }
