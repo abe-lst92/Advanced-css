@@ -1,0 +1,12 @@
+.head {
+    font-family: 'Playfair';
+    color: cornflowerblue;
+    background-color: black;
+    transition-property: color, font-family;
+    transition-duration: 4s;
+}
+
+.head:hover {
+    color: green;
+    font-family: monospace;
+}
