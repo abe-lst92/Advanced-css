@@ -53,5 +53,5 @@ transform: skew(50deg, 20deg);
 .scale:hover{
     color: fuchsia;
     background-color: black;
-transform: scale(20px, 30px);
+transform: scale(2, 3);
 }
