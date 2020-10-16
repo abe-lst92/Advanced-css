@@ -16,21 +16,84 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recipe.css">
+
+<style>
+  .dropbtn {
+    background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  right: 0;
+
+  display: inline-block;
+}
+
+.dropdown-content {
+
+
+  display: none;
+  position: absolute;
+
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
 
 </head>
 
 <body>
+    <nav>
 
-    <nav style="font-size: 17px; text-align: right;">
+        <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="circles.html">Circles</a>
+                <a href="transition.html">Transitions</a>
+                <a href="animation.html">My road</a>
+                <a href="recipe.html">Family Recipe</a>
+            </div>
+          </div>
+    </nav>
+
+    <!-- <nav style="font-size: 17px; text-align: right;">
         <a href="index.html">Home |</a>
         <a href="circles.html">Circles |</a>
         <a href="transition.html">Transitions |</a>
         <a href="animation.html">My road |</a>
         <a href="recipe.html">Family Recipe |</a>
-    </nav>
+    </nav> -->
 
     <h1 class="title-recipe">Family Recipe</h1>
     <hr>
@@ -59,13 +122,15 @@
         <div class="row" style="margin-top: 30px;">
             <div class="col-6">
                 <h3 style="margin-top: 20px;" class="one">Step 1</h3>
-                <p class="p2">Put the dried chiles(peppers) into a saucepan with water, after that put them into the kitchen stove
+                <p class="p2">Put the dried chiles(peppers) into a saucepan with water, after that put them into the
+                    kitchen stove
                     heat for like 15 minutes.</p>
 
             </div>
             <div class="col-6">
 
-                <img class="recipe21" src="https://www.mexicoenmicocina.com/wp-content/uploads/2013/11/Enchiladas-rojas10_thumb9.jpg"
+                <img class="recipe21"
+                    src="https://www.mexicoenmicocina.com/wp-content/uploads/2013/11/Enchiladas-rojas10_thumb9.jpg"
                     alt="chiles into the saucepan">
 
             </div>
@@ -75,12 +140,14 @@
         <div class="row">
             <div class="col-6">
                 <h3 class="two">Step 2</h3>
-                <img class="recipe21" src="https://www.brandnewvegan.com/wp-content/uploads/2015/12/Red-Chile-Sauce-4.jpg"
+                <img class="recipe21"
+                    src="https://www.brandnewvegan.com/wp-content/uploads/2015/12/Red-Chile-Sauce-4.jpg"
                     alt="blender with the sauce" height="200px">
 
             </div>
             <div class="col-6">
-                <p class="p2">After the chiles are ready put them into the blender with the garlic clove and 1/2 cup of water and
+                <p class="p2">After the chiles are ready put them into the blender with the garlic clove and 1/2 cup of
+                    water and
                     start the blender until the chiles become completely like a sauce. When the chile sauce is ready put
                     it into a a bowl or the same saucepan so you can have it ready to prepare you enchiladas.</p>
             </div>
@@ -94,14 +161,16 @@
 
             </div>
             <div class="col-4">
-                <p class="p2">Now in another skillet add the oil and put it into heat and put the corn tortilla into the hot oil.
+                <p class="p2">Now in another skillet add the oil and put it into heat and put the corn tortilla into the
+                    hot oil.
                     Fried the tortilla both ways but not to fried just put it into the hot oil for a couple seconds and
                     move the tortilla where you have the chile sauce.</p>
 
             </div>
 
             <div class="col-4">
-                <img class="recipe21" src="https://i2.wp.com/reluctantentertainer.com/wp-content/uploads/2011/05/how-to-fry-corn-tortillas-reluctant-entertainer-3.jpg"
+                <img class="recipe21"
+                    src="https://i2.wp.com/reluctantentertainer.com/wp-content/uploads/2011/05/how-to-fry-corn-tortillas-reluctant-entertainer-3.jpg"
                     height="250px" alt="fried tortilla">
 
             </div>
@@ -111,11 +180,12 @@
         <div class="row">
             <div class="col-6">
                 <h3 class="four">Step 4</h3>
-                
+
 
             </div>
             <div class="col-6">
-                <p class="p2">After Moving the fried tortilla into the chile sauce make sure to fill the tortilla both sides with
+                <p class="p2">After Moving the fried tortilla into the chile sauce make sure to fill the tortilla both
+                    sides with
                     the chile sauce. After having the tortilla with the hot chile sauce put the tortilla into a plate
                     and fill the tortilla with the cheese and you can create as much enchiladas as you want. You can add
                     rice to the enchiladas and Enjoy!!! </p>
@@ -123,18 +193,21 @@
             </div>
         </div>
         <hr>
-       
+
 
 
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="5000">
-                    <img class="recipe21" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWcy4hPnEIJqZQkyrlX6FgyZ9IUchxQPl4wQ&usqp=CAU"
-                class="d-block w-50" alt="tortilla in the enchilada sauce" height="300px" width="400px" style="float: center;">
+                    <img class="recipe21"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWcy4hPnEIJqZQkyrlX6FgyZ9IUchxQPl4wQ&usqp=CAU"
+                        class="d-block w-50" alt="tortilla in the enchilada sauce" height="300px" width="400px"
+                        style="float: center;">
                 </div>
                 <div class="carousel-item" data-interval="4000">
-                    <img class="recipe21" src="https://images-gmi-pmc.edge-generalmills.com/0420107f-748a-4fe8-9544-ed2999f73810.jpg"
-                    alt="enchilada final look" class="d-block w-50" style="float: center;">
+                    <img class="recipe21"
+                        src="https://images-gmi-pmc.edge-generalmills.com/0420107f-748a-4fe8-9544-ed2999f73810.jpg"
+                        alt="enchilada final look" class="d-block w-50" style="float: center;">
                 </div>
 
             </div>
