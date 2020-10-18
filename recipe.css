@@ -51,24 +51,10 @@ transition-duration: 4s;
     transition-duration: 5s;
 }
 
-@media screen and(max-width: 480px) {
-    body {
-        background-color: lightpink;
-    }
 
-}
 
-@media screen and(min-width: 768px) {
-    body {
-        background-color: lightgreen;
-    }
-}
 
-@media screen and(min-width: 1025px) {
-    body {
-        background-color: yellow;
-    }
-}
+
 
 .title-recipe:hover{
     background-color: indigo;
@@ -120,9 +106,41 @@ transition-duration: 4s;
     100% {border: black ridge 15px; border-radius: 10%; color: blue;}
 }
 
-@media screen and (max-width: 480px) {
+.icon{
+    text-align: left;
+
+}
+.more{
+    display: inline;
+}
+.more a{
+    color: indigo;
+    text-decoration: none;
+}
+label{
+    font-size: 25px;
+     display: none; 
+}
+#toggle{
+    display: none;
+}
+@media screen and (max-width: 500px) {
     body {
         background-color: lightpink;
+    }
+    label{
+        display: block;
+    }
+    .more {
+        text-align: left;
+        width: 100%;
+        display: none;
+    }
+    .more a {
+        display: block;
+    }
+    #toggle:checked + .more{
+        display: block;
     }
 
 }
@@ -138,4 +156,5 @@ transition-duration: 4s;
         background-color: yellow;
     }
 }
+
 
