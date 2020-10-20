@@ -116,6 +116,8 @@ transition-duration: 4s;
 .more a{
     color: indigo;
     text-decoration: none;
+    margin-top: 15px;
+    
 }
 label{
     font-size: 25px;
@@ -130,17 +132,24 @@ label{
     }
     label{
         display: block;
+        font-size: 40px;
     }
     .more {
         text-align: left;
         width: 100%;
         display: none;
+        font-family: 'Times New Roman', Times, serif;
     }
     .more a {
         display: block;
+        color: green;
     }
     #toggle:checked + .more{
         display: block;
+    }
+    .enchiladas-two{
+        height: 250px;
+        width: 160px;
     }
 
 }
@@ -149,12 +158,32 @@ label{
     body {
         background-color: lightgreen;
     }
+    h1{
+        color: red;
+        font-size: 40px;
+    }
+    h3{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1025px) {
     body {
         background-color: yellow;
     }
+
+    p{
+        font-family: fantasy;
+        font-size: 15px;
+        text-align: center;
+        color: violet;
+    }
+
+
+
+
 }
 
 
